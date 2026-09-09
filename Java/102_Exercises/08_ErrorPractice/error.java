@@ -5,7 +5,7 @@ class error {
         system.out.println"What'd you do this weekend?
                            I watched a movie!";
 
-		int new number = 125;
+		int countnumber = 125;
 		System.out.println(count);
 
 		int num1 = 12.2;
