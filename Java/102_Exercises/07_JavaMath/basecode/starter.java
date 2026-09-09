@@ -1,6 +1,6 @@
 /*
- *	Author:  
- *  Date: 
+ *	Author:  Luke Castillote Chang
+ *  Date: 9/4/26
 */
 
 class starter {
