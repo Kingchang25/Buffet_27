@@ -21,6 +21,7 @@ class starter {
 		String birthDay = sc.nextLine();
 		System.out.println("If I have a dollar and two quarters, how much money do I have?");
 		String money = sc.nextLine();
+		
 
 		
 	}
