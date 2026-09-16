@@ -1,5 +1,4 @@
 import java.util.Scanner;
-    Lecture note example - Input!!
 
 
 
@@ -23,13 +22,18 @@ class LectureInput{
         System.out.println("How many sushi rolls would you like to order?");
         Scanner sc =new Scanner(System.in);
         int order1 = sc.nextInt();
+        System.out.println("Item 1 total is: " + (order1 * item1Price));
         System.out.println("How many sashimi would you like to order?");
         int order2 = sc.nextInt();
+        System.out.println("Item 2 total is: " + (order2 * item2Price));
         System.out.println("How many miso soups would you like to order?");
         int order3 = sc.nextInt();
+        System.out.println("Item 3 total is: " + (order3 * item3Price));
 
-
-
-        
+Double grandTotal = (order1 * item1Price) + (order2 * item2Price) + (order3 * item3Price);
+        System.out.println("How much would you like to tip?");
+        double tip = sc.nextDouble();
+        tip = tip / 100 * grandTotal;
+        System.out.println("Your total is: " + (grandTotal + tip));
 	}
 }
