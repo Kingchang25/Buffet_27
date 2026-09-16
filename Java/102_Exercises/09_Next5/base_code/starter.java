@@ -20,7 +20,7 @@ class starter {
         System.out.println(num + ", " + (num * 2) + ", " + (num * 3) + ", " + (num * 4) + ", " + (num * 5) + ", " + (num * 6));
 
         System.out.println("Here is " + num + " divided by 100!");
-        System.out.println(num / 100.0);
+        System.out.println((double)num / 100.0);
 
         System.out.println("Here is " + num + " divided by 10!");
         System.out.println(num / 10.0);
