@@ -17,5 +17,6 @@ class starter {
 		System.out.println(gamble2);
 		System.out.print("A number between 2.5 and 3.5 is : ");
 		System.out.println(gamble3);
+		System.out.println("A double between 14 and 589: " +  )
 	}
 }
