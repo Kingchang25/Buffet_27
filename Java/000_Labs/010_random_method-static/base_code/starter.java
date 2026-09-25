@@ -21,3 +21,4 @@ class starter {
 		System.out.println("A double between 14 and 589: " + gamble4);
 	}
 }
+	
