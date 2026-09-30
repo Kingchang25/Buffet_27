@@ -9,11 +9,37 @@ class starter {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Please enter your first number :");
-		int firstNumber = sc.nextInt();
+		int x = sc.nextInt();
 		System.out.print("Please enter your second number :");
-		int secondNumber = sc.nextInt();
+		int y = sc.nextInt();
 		System.out.print("Please enter your third number :");
-		int thirdNumber = sc.nextInt();
-		if()
+		int z = sc.nextInt();
+		if(x>y && x>z){
+			System.out.println("Your first number is the largest");
+			System.out.println("The number was " + x );
+		}
+		if(y>x && y>z){
+			System.out.println("Your second number is the largest");
+			System.out.println("The number was " + y );
+	}
+	if(z>x && z>y){
+			System.out.println("Your third number is the largest");
+			System.out.println("The number was " + z );
+
+		}
+			if(x<y && x<z){
+			System.out.println("Your first number is the smallest");
+			System.out.println("The number was " + x );
+		}
+		if(y<x && y<z){
+			System.out.println("Your second number is the smallest");
+			System.out.println("The number was " + y );
+	}
+	if(z<x && z<y){
+			System.out.println("Your third number is the smallest");
+			System.out.println("The number was " + z );
+
+		}
+
 	}
 }
