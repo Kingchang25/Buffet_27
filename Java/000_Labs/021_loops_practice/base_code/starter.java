@@ -1,13 +1,22 @@
 /*
- *	Author:  
- *  Date: 
+ *	Author:  Luke Castillote Chang
+ *  Date: 10/15/26
 */
 
 import java.util.Scanner;
 
 class starter {
 	public static void main(String args[]) {
-		// Your code goes below here
+		Scanner sc = new Scanner(System.in);
+		int randomnum = (int)(Math.random()*1000);
+		String guess = sc.nextLine();
+		if (guess == randomnum){
+			System.out.println("You guessed the number!");
+		}
+		else{
+			System.out.println("You did not guess the number.");
+		}
+		
 
 
 

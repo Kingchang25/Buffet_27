@@ -1,16 +1,29 @@
 /*
- *	Author:  
- *  Date: 
+ *	Author:  Luke Castillote Chang
+ *  Date: 10/14/26
 */
+import java.util.*;
 
-import java.util.Scanner;
+public class starter {
+    public static void main(String[] args) {
 
-class starter {
-	public static void main(String args[]) {
-		// Your code goes below here
+        Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter your name: ");
+        String name = input.nextLine();
 
+        System.out.print("How many times should we print your name? ");
+        int times = input.nextInt();
 
-		
-	}
+        int count = 0;
+
+        while (true) {
+            System.out.println(name);
+            count++;
+
+            if (count == times) {
+                break;
+            }
+        }
+    }
 }
