@@ -10,10 +10,10 @@ public class starter {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
-        String name = input.nextLine();
+        String name = sc.nextLine();
 
         System.out.print("How many times should we print your name? ");
-        int times = input.nextInt();
+        int times = sc.nextInt();
 
         int count = 0;
 
