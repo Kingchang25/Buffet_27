@@ -13,8 +13,12 @@ class starter {
 		int width = sc.nextInt();
 		System.out.print("Please enter a height:");
 		int height = sc.nextInt();
-		While (true) {
-			System.out.print("*");
+		while(height > 0) {
+			for(int i = 0; i < width; i++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			height--;
 		}
 	}
 }
