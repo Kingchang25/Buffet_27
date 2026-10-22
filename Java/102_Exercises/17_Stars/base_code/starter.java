@@ -14,11 +14,43 @@ class starter {
 		System.out.print("Please enter a height:");
 		int height = sc.nextInt();
 		while(height > 0) {
-			for(int i = 0; i < width; i++) {
+			int i = 0;
+			while(i < width) {
 				System.out.print("*");
+				i++;
 			}
 			System.out.println();
 			height--;
+		}
+		System.out.println("------------------------------------------------------------");
+		System.out.print("Please enter a integer:");
+		int integer = sc.nextInt();
+		int c1 =1;
+		while(c1 <= integer) {
+			int c2 = 1;
+			while(c2 <= c1) {
+				System.out.print("*");
+				c2++;
+			}
+			System.out.println();
+			c1++;
+		}
+		System.out.println("------------------------------------------------------------");
+		System.out.println("Reversed Star:");
+		System.out.print("Please enter an intger: ");
+		integer = sc.nextInt();
+		int b1
+
+		while(c1 <= integer) {
+			int c2 = 1;
+			while(c2 <= c1) {
+				System.out.print("*");
+				c2++;
+			}
+			System.out.println();
+			c1++;
+		}
+
 		}
 	}
 }
