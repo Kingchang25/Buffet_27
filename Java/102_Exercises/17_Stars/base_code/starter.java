@@ -39,7 +39,6 @@ class starter {
 		System.out.println("Reversed Star:");
 		System.out.print("Please enter an intger: ");
 		integer = sc.nextInt();
-		int b1
 
 		while(c1 <= integer) {
 			int c2 = 1;
