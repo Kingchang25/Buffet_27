@@ -49,7 +49,14 @@ class starter {
 			System.out.println();
 			c1++;
 		}
-
+		While(c1 <= integer) {
+			int c2 = 1;
+			while(c2 <= integer - c1 + 1) {
+				System.out.print("*");
+				c2++;
+			}
+			System.out.println();
+					c1++;
 		}
 	}
 }
