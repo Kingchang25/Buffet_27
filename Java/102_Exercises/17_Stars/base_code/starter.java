@@ -56,7 +56,7 @@ class starter {
 				c2++;
 			}
 			System.out.println();
-					c1++;
+			c1++;
 		}
 
 	}
